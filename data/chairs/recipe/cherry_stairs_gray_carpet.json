@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_stairs"
+    },
+    {
+      "item": "minecraft:gray_carpet"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cherry_stairs",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{'text':'Cherry Chair','italic':false, 'color':'green'}]",
+      "minecraft:custom_data": {
+        "type": "chair"
+      }
+    }
+  }
+}

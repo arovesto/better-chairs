@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:interaction,tag=chair] at @s unless block ~ ~-0.5 ~ #stairs run kill @s
+execute if predicate chairs:random as @e[type=minecraft:interaction,tag=chair] at @s run particle happy_villager ~ ~ ~ 0 0 0 0 1

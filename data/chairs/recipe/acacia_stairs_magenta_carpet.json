@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_stairs"
+    },
+    {
+      "item": "minecraft:magenta_carpet"
+    }
+  ],
+  "result": {
+    "id": "minecraft:acacia_stairs",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{'text':'Acacia Chair','italic':false, 'color':'green'}]",
+      "minecraft:custom_data": {
+        "type": "chair"
+      }
+    }
+  }
+}

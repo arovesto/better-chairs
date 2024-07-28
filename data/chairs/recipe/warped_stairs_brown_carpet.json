@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_stairs"
+    },
+    {
+      "item": "minecraft:brown_carpet"
+    }
+  ],
+  "result": {
+    "id": "minecraft:warped_stairs",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{'text':'Warped Chair','italic':false, 'color':'green'}]",
+      "minecraft:custom_data": {
+        "type": "chair"
+      }
+    }
+  }
+}

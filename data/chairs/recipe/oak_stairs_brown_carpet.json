@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_stairs"
+    },
+    {
+      "item": "minecraft:brown_carpet"
+    }
+  ],
+  "result": {
+    "id": "minecraft:oak_stairs",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{'text':'Oak Chair','italic':false, 'color':'green'}]",
+      "minecraft:custom_data": {
+        "type": "chair"
+      }
+    }
+  }
+}

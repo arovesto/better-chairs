@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_stairs"
+    },
+    {
+      "item": "minecraft:cyan_carpet"
+    }
+  ],
+  "result": {
+    "id": "minecraft:birch_stairs",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{'text':'Birch Chair','italic':false, 'color':'green'}]",
+      "minecraft:custom_data": {
+        "type": "chair"
+      }
+    }
+  }
+}

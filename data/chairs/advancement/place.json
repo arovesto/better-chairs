@@ -1,0 +1,39 @@
+{
+  "criteria": {
+    "main_hand": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "type": "chair"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#stairs"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "chairs:place"
+  }
+}

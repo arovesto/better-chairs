@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "chairs",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_stairs"
+    },
+    {
+      "item": "minecraft:orange_carpet"
+    }
+  ],
+  "result": {
+    "id": "minecraft:spruce_stairs",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": "[{'text':'Spruce Chair','italic':false, 'color':'green'}]",
+      "minecraft:custom_data": {
+        "type": "chair"
+      }
+    }
+  }
+}
