@@ -1,1 +1,1 @@
-scoreboard objectives add test dummy
+scoreboard objectives add chairs_logic_var dummy

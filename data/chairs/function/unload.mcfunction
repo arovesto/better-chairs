@@ -1,0 +1,1 @@
+scoreboard objectives remove chairs_logic_var dummy
