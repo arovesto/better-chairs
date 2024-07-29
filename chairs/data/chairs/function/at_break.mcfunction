@@ -1,4 +1,4 @@
-# GENERATED FROM minecraft_command_remove_stairs_gen.py
+# GENERATED DO NOT EDIT
 scoreboard players set #bool chairs_logic_var 0
 execute on attacker store result score #bool chairs_logic_var if entity @s[tag=this]
 execute if score #bool chairs_logic_var matches 1 at @s run kill @e[type=minecraft:interaction,tag=chair_sit,distance=..0.5]

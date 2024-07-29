@@ -1,4 +1,4 @@
-# GENERATED FROM minecraft_command_list_gen.py
+# GENERATED DO NOT EDIT
 advancement revoke @s only chairs:place
 scoreboard players set #bool chairs_logic_var 0
 execute unless score #bool chairs_logic_var matches 1 rotated as @s anchored eyes positioned ^ ^ ^0.03 if block ~ ~ ~ #minecraft:stairs align x align y align z store success score #bool chairs_logic_var run function chairs:place_at
