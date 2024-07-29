@@ -76,8 +76,8 @@ def gen_recipies(recipies_dir):
 
 
 def main():
-    func_dir = "../chairs/data/chairs/function"
-    recipies_dir = "../chairs/data/chairs/recipe"
+    func_dir = "../data/chairs/function"
+    recipies_dir = "../data/chairs/recipe"
 
     generate_place(func_dir)
     generate_remove(func_dir)
